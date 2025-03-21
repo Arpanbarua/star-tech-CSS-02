@@ -1,0 +1,154 @@
+/* for deleting by default margin, padding of any tag */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #F2F4F8;
+    position: relative;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#parent
+{
+   width: 248px;
+   background-color: #fff;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+}
+
+#parent .head span
+{
+    background: #6E2594;
+    color: white;
+    display: inline-block;
+    border-radius: 0 20px 20px 0;
+    padding: 3px 10px;
+    font-size: 15px;
+    line-height: 14px;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#parent .img
+{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+}
+
+#parent .contains
+{
+    
+    padding: 15px;
+}
+
+#parent .contains h5 a
+{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+#parent .contains h5 a:hover
+{
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#parent .contains ul
+{
+    
+    padding-top: 10px ;
+    padding-left: 14px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 14px;
+    border-bottom: 1px solid #eee ;
+   
+}
+
+#parent .contains ul li
+{
+    padding-bottom: 10px;
+}
+
+#parent .contains .price .discountprice
+{
+    color: #d51e0b;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#parent .price
+{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#parent .price .realprice
+{
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+#parent .buttons a
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#parent .buttons .buynow
+{
+    background-color: aliceblue;
+    color: #3749bb;
+    line-height: 34px;
+    padding: 0 14px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 7px;
+
+}
+
+
+#parent .buttons .buynow:hover
+{
+    background-color: #3749BB;
+    color: #fff;
+    cursor: pointer;
+}
+
+#parent .buttons .atc
+{
+    margin-top: 7px;
+    padding: 0 14px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #666666;
+    line-height: 35px;
+
+}
+
+#parent .buttons .atc:hover
+{
+    background-color: #F1F3F5;
+    border-radius: 5px;
+    cursor: pointer;
+}
